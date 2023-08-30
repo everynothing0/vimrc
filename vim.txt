@@ -1,0 +1,21 @@
+let g:user42 = 'cde-voog'
+let g:mail42 = 'cde-voog@student.42lehavre.fr'
+
+set number
+set magic
+set ruler
+set foldcolumn=1
+set smartcase
+set incsearch
+
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+set history=100
+
+set wildmenu
+
+autocmd FileType c setlocal smartindent cinwords=for,while,do,if,else
+# indent intelligence and desactivate 
+
+highlight Normal ctermfg=darkblue ctermbg=white
