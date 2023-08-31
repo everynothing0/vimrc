@@ -16,6 +16,8 @@ set history=100
 set wildmenu
 
 autocmd FileType c setlocal smartindent cinwords=for,while,do,if,else
+autocmd FileType go setlocal smartindent cinwords=for,while,do,if,else,import
+autocmd FileType c++ setlocal smartindent cinwords=for,while,do,if,else
 # indent intelligence and desactivate 
 
 highlight Normal ctermfg=darkblue ctermbg=white
